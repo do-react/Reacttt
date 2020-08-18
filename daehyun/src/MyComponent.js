@@ -13,7 +13,7 @@ class MyComponent extends Component {
         제가 좋아하는 숫자는 {favoriteNumber}입니다.
       </div>
     );
-  }
+  }ㅌ
 }
 
 MyComponent.defaultProps = {
