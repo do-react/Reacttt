@@ -17,7 +17,7 @@ const TodoInsert = ({ onInsert }) => {
       //이를 방지하기 위해 이 함수를 호출합니다.
       e.preventDefault();
     },
-    [onInsert, value],
+    [onInsert, value], //onInsert가 발생하거나 value가 바뀌었을때만 함수 생성
   );
 
   return (
