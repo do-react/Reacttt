@@ -42,4 +42,4 @@ const TodosContainer = () => {
 //   },
 // )(TodosContainer);
 
-export default React.memo(TodosContainer);
+export default React.memo(TodosContainer); //React.memo는 성능 최적화를 위해서
