@@ -3,7 +3,6 @@
 const path = require("path");
 const fs = require("fs");
 const getPublicUrlOrPath = require("react-dev-utils/getPublicUrlOrPath");
-const { resolve } = require("path");
 
 // Make sure any symlinks in the project folder are resolved:
 // https://github.com/facebook/create-react-app/issues/637
@@ -65,8 +64,8 @@ module.exports = {
   testsSetup: resolveModule(resolveApp, "src/setupTests"),
   proxySetup: resolveApp("src/setupProxy.js"),
   appNodeModules: resolveApp("node_modules"),
-  ssrIndexJs: resolve("src/index.server.js"),
-  ssrBuild: resolve("dist"),
+  ssrIndexJs: resolveApp("src/index.server.js"), //ssr 엔트리
+  ssrBuild: resolveApp("dist"), //웹팩 처리 후 저장 경로
   publicUrlOrPath,
 };
 

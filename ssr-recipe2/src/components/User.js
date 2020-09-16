@@ -5,7 +5,7 @@ const User = ({ user }) => {
   return (
     <div>
       <h1>
-        {username} ({name})
+        {username}({name})
       </h1>
       <p>
         <b>e-mail:</b> {email}

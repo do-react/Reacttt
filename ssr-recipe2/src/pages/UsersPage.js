@@ -6,7 +6,7 @@ import { Route } from "react-router-dom";
 const UsersPage = () => {
   return (
     <>
-      <UsersContainer />;
+      <UsersContainer />
       <Route
         path="/users/:id"
         render={({ match }) => <UserContainer id={match.params.id} />}
