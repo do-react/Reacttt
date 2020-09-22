@@ -12,5 +12,5 @@ const PostSchema = new Schema({
   },
 });
 
-const Post = mongoose.model('Post', PostSchema);
+const Post = mongoose.model('Post', PostSchema); //model()함수는 두개의 파라미터가 필요함 첫번째는 스키마 이름, 두번째는 스키마 객체
 export default Post;
