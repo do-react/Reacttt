@@ -11,7 +11,7 @@
   },
   "parserOptions": {
     "ecmaVersion": 2018,
-    "sourcceType": "module"
+    "sourceType": "module"
   },
   "rules": {
     "no-unused-var": "warn",
