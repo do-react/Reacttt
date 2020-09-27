@@ -14,7 +14,7 @@
     "sourceType": "module"
   },
   "rules": {
-    "no-unused-var": "warn",
+    "no-unused-vars": "warn",
     "no-console": "off"
   }
 }
