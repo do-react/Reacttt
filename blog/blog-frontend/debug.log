@@ -1,0 +1,4 @@
+[1002/182914.336:ERROR:minidumpwritedump_with_crashpad_info.cc(452)] Failed to call MiniDumpWriteDump: 이 작업을 완료하기 위한 페이징 파일이 너무 작습니다. (0x800705AF)
+[1002/182914.340:ERROR:minidumpwritedump_with_crashpad_info.cc(661)] Failed to write minidump file
+[1002/182914.340:ERROR:crash_report_exception_handler.cc(132)] TryMiniDumpWriteDumpWithCrashpadInfo failed
+[1002/182914.640:ERROR:process_info.cc(359)] UncheckedAllocate
