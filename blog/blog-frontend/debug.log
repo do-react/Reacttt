@@ -2,3 +2,4 @@
 [1002/182914.340:ERROR:minidumpwritedump_with_crashpad_info.cc(661)] Failed to write minidump file
 [1002/182914.340:ERROR:crash_report_exception_handler.cc(132)] TryMiniDumpWriteDumpWithCrashpadInfo failed
 [1002/182914.640:ERROR:process_info.cc(359)] UncheckedAllocate
+[1015/192641.260:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
